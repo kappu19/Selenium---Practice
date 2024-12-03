@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T21:07:34 IST" name="Suite" finished-at="2024-09-26T21:07:48 IST" duration-ms="14618">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T21:07:34 IST" name="ChromeTest" finished-at="2024-09-26T21:07:44 IST" duration-ms="10063">
+      <class name="day42_TestNG.Test1">
+        <test-method is-config="true" signature="openapp(java.lang.String)[pri:0, instance:day42_TestNG.Test1@6150c3ec]" started-at="2024-09-26T21:07:34 IST" name="openapp" finished-at="2024-09-26T21:07:38 IST" duration-ms="4594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="testLogo()[pri:2, instance:day42_TestNG.Test1@6150c3ec]" started-at="2024-09-26T21:07:38 IST" name="testLogo" finished-at="2024-09-26T21:07:44 IST" duration-ms="5038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="loginapp()[pri:3, instance:day42_TestNG.Test1@6150c3ec]" started-at="2024-09-26T21:07:44 IST" name="loginapp" finished-at="2024-09-26T21:07:44 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapp -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:day42_TestNG.Test1@6150c3ec]" started-at="2024-09-26T21:07:44 IST" name="closeapp" finished-at="2024-09-26T21:07:44 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- day42_TestNG.Test1 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-09-26T21:07:34 IST" name="EdgeTest" finished-at="2024-09-26T21:07:45 IST" duration-ms="11061">
+      <class name="day42_TestNG.Test1">
+        <test-method is-config="true" signature="openapp(java.lang.String)[pri:0, instance:day42_TestNG.Test1@3bd82cf5]" started-at="2024-09-26T21:07:34 IST" name="openapp" finished-at="2024-09-26T21:07:38 IST" duration-ms="4316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="testLogo()[pri:2, instance:day42_TestNG.Test1@3bd82cf5]" started-at="2024-09-26T21:07:38 IST" name="testLogo" finished-at="2024-09-26T21:07:43 IST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="loginapp()[pri:3, instance:day42_TestNG.Test1@3bd82cf5]" started-at="2024-09-26T21:07:43 IST" name="loginapp" finished-at="2024-09-26T21:07:44 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapp -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:day42_TestNG.Test1@3bd82cf5]" started-at="2024-09-26T21:07:44 IST" name="closeapp" finished-at="2024-09-26T21:07:45 IST" duration-ms="1411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- day42_TestNG.Test1 -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-09-26T21:07:34 IST" name="FirefoxTest" finished-at="2024-09-26T21:07:48 IST" duration-ms="14618">
+      <class name="day42_TestNG.Test1">
+        <test-method is-config="true" signature="openapp(java.lang.String)[pri:0, instance:day42_TestNG.Test1@247bddad]" started-at="2024-09-26T21:07:34 IST" name="openapp" finished-at="2024-09-26T21:07:42 IST" duration-ms="7692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="testLogo()[pri:2, instance:day42_TestNG.Test1@247bddad]" started-at="2024-09-26T21:07:42 IST" name="testLogo" finished-at="2024-09-26T21:07:47 IST" duration-ms="5046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="loginapp()[pri:3, instance:day42_TestNG.Test1@247bddad]" started-at="2024-09-26T21:07:47 IST" name="loginapp" finished-at="2024-09-26T21:07:48 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapp -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:day42_TestNG.Test1@247bddad]" started-at="2024-09-26T21:07:48 IST" name="closeapp" finished-at="2024-09-26T21:07:48 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- day42_TestNG.Test1 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
